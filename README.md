@@ -41,20 +41,18 @@ This is especially useful in **banking / KYC / customer verification** workflows
 **Step 4:** Select the **highest** score from all permutations and return as a percentage.
 
 ## 🔄 Matching Logic Flow
-
 ```mermaid
-flowchart LR
-    A[Customer Name] --> B[Normalize]
-    B --> C[Generate Word Permutations]
+flowchart TD
+    A[Start] --> B[Receive Names]
+    B --> C[Preprocess Names]
     C --> D[Calculate Jaccard Similarity]
-    C --> E[Calculate Levenshtein Similarity]
-    D --> F[Average Scores]
-    E --> F
-    F --> G[Select Highest Score]
-    G --> H[Return % Match in API Response]
+    D --> E[Calculate Levenshtein Distance]
+    E --> F[Apply Permutations]
+    F --> G[Generate Realistic Score]
+    G --> H[Return API Response]
+```
 
 ## 🚀 Getting Started
----
 
 ### 1️⃣ Clone the repo
 ```bash
