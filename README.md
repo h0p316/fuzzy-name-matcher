@@ -1,9 +1,8 @@
-# fuzzy-name-matcher
+# Not All Matches Are Made in Heaven, Some Are Calculated
 Fuzzy name matching service using Jaccard similarity, Levenshtein distance, and word permutations to deliver realistic similarity scores between customer and beneficiary names. Built with Java 17, Spring Boot, and Apache Commons Text.
 
 
-# Fuzzy Name Matcher
-
+# Because Close Enough is Sometimes Good Enough
 A Spring Boot service for fuzzy name matching that calculates a **realistic similarity score** between two names using:
 - **Word-level Jaccard similarity** (checks how many words overlap)
 - **Levenshtein distance** (measures character-level edits needed to match)
