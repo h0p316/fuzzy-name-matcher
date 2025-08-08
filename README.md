@@ -52,38 +52,32 @@ cd FuzzyNameMatch
 
 2️⃣ Build the project
 bash
-Copy
-Edit
+
 mvn clean install
 3️⃣ Run the Spring Boot app
 bash
-Copy
-Edit
+
 mvn spring-boot:run
 The service will start at:
 
 arduino
-Copy
-Edit
+
 http://localhost:8080
 📡 API Usage
 Endpoint
 bash
-Copy
-Edit
+
 POST /api/fuzzy-match
 Request Body
 json
-Copy
-Edit
+
 {
   "customer": "VISHAL KUMAR",
   "beneficiary": "VISHAL KUMA"
 }
 Response
 json
-Copy
-Edit
+
 {
   "beneficiary": "VISHAL KUMA",
   "score": 96.67
@@ -92,8 +86,7 @@ Edit
 Once the app is running, visit:
 
 bash
-Copy
-Edit
+
 http://localhost:8080/swagger-ui.html
 to test the API interactively.
 
