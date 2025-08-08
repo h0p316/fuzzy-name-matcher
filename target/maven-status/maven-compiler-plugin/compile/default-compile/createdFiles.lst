@@ -1,0 +1,6 @@
+com/fuzzymatch/FuzzyMatcher.class
+com/fuzzymatch/MatchResult.class
+com/fuzzymatch/FuzzyMatchApplication.class
+com/fuzzymatch/FuzzyMatchController.class
+com/fuzzymatch/MatchResult$MatchResultBuilder.class
+com/fuzzymatch/MatchRequest.class
